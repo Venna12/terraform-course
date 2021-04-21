@@ -9,9 +9,10 @@ variable "list2" {
 variable "map1" {
   type = map(number)
   default = {
-   "apple" = 5
+   "apple" = 1
    "pear" = 3
    "banana" = 10
-   "mango" = 0
+   "mango" = 101
+   
   }
 }
